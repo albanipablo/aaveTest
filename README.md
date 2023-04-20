@@ -1,4 +1,4 @@
-# AAVE challenge for Noya
+# AAVE ML Yield Strategy
 
 This pool has 4 jupyter notebooks that were run sequentially.
 
