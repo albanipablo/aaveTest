@@ -14,7 +14,7 @@ from sklearn.model_selection import TimeSeriesSplit
 def runStrategyBacktest(investment, strategy, yield_upside_factor=7, maxPoolsSplit=3, printAll=False):
 
     # Read Files
-    yields = pd.read_csv('https://github.com/albanipablo/aaveTest/raw/main/Strategy-Demo/yieldPools.csv.gz', compression='gzip')
+    yields = pd.read_csv('https://github.com/albanipablo/aaveTest/raw/main/Strategy-Demo/yields.csv.gz', compression='gzip')
     pools = pd.read_csv('https://github.com/albanipablo/aaveTest/raw/main/Strategy-Demo/yieldPools.csv.gz', compression='gzip')
 
     # Discard USDC depeg days
