@@ -169,7 +169,7 @@ def runStrategyBacktest(investment, strategy, yield_upside_factor=7, maxPoolsSpl
     elif strategy == 'EthHighRisk':
         tokens, protocols = tokensEH, protocolsEH
 
-    lgbmodel = lgb.Booster(model_file='https://raw.githubusercontent.com/albanipablo/aaveTest/main/Strategy-Demo/lgb-Class-70var.txt')
+    lgbmodel = lgb.Booster(model_file='lgb-Class-70var.txt')
 
     pools = pools[pools.chain.isin(chains)]
 
